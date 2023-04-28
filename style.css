@@ -22,6 +22,9 @@ p {
 }
 #message-el{
     font-style: italic;
+    color: black;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
 button{

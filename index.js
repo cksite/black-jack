@@ -70,7 +70,7 @@ function renderGame(){
         message =player.name + " you've got blackjack! ";
         hasblackjack = true;
         player.chips += 10;
-        playerEl.textContent = player.chips;
+        playerEl.textContent = player.name + ": $ " + player.chips;
        
     }
     else{

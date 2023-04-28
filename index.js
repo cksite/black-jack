@@ -67,7 +67,7 @@ function renderGame(){
         message =player.name + ", Do you want to draw a new card?";
     }
     else if(sum === 21){
-        message =player.name + ", you've got blackjack! <<Restart your game >>";
+        message =player.name + ", you've got blackjack! <Restart your game >";
         hasblackjack = true;
         player.chips += 10;
         playerEl.textContent = player.name + ": $ " + player.chips;

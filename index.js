@@ -64,17 +64,17 @@ function renderGame(){
     sumEl.textContent = "Sum: " + sum;
 
     if(sum<=20){
-        message =player.name + " Do you want to draw a new card?";
+        message =player.name + ", Do you want to draw a new card?";
     }
     else if(sum === 21){
-        message =player.name + " you've got blackjack! ";
+        message =player.name + ", you've got blackjack! <<Restart your game >>";
         hasblackjack = true;
         player.chips += 10;
         playerEl.textContent = player.name + ": $ " + player.chips;
        
     }
     else{
-        message =player.name + " you are out of the game! please click start game";
+        message =player.name + ", you are out of the game! please click start game";
         isAlive = false;
         
         
